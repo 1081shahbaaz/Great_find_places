@@ -21,6 +21,56 @@ class PlaceListScreen extends StatelessWidget {
               Icons.add,
             ),
           )
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )
         ],
       ),
       body: FutureBuilder(
