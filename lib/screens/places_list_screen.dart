@@ -96,7 +96,7 @@ class PlaceListScreen extends StatelessWidget {
                             ),
                             title: Text(greatPlaces.items[index].title),
                             subtitle: Text(
-                              greatPlaces.items[index].location?.addess ?? "",
+                              greatPlaces.items[index].location?.map ?? "",
                             ),
                             onTap: () {
                               Navigator.of(context).pushNamed(
@@ -145,6 +145,26 @@ class PlaceListScreen extends StatelessWidget {
                                 arguments: greatPlaces.items[index].id,
                               );
                             },
+                          onTap: () {
+                              Navigator.of(context).pushNamed(
+                                PlaceDetailsScreen.routeName,
+                                arguments: greatPlaces.items[index].id,
+                              );
+                            },
+                          );  
+                          onTap: () {
+                              Navigator.of(context).pushNamed(
+                                PlaceDetailsScreen.routeName,
+                                arguments: greatPlaces.items[index].id,
+                              );
+                            },
+                          );  onTap: () {
+                              Navigator.of(context).pushNamed(
+                                PlaceDetailsScreen.routeName,
+                                arguments: greatPlaces.items[index].id,
+                              );
+                            },
+                          );  
                           );
                         },
                       ),
