@@ -39,6 +39,105 @@ class PlaceLocation {
 
 class PlaceLocation {
   final double latitude;
+      required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;    required this.title,
+      this.location,
+      required this.image});
+}
+
+class PlaceLocation {
+  final double latitude;
+  final double longitude;
   final double longitude;
   String? addess;
 
