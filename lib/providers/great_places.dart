@@ -127,6 +127,22 @@ class GreatPlaces with ChangeNotifier {
     File image,'
     '
     '
+      List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
     l;'
     ;'
     
@@ -443,19 +459,7 @@ import 'package:great_places/helpers/db_helper.dart';
 import 'package:great_places/models/place.dart';
 
 class GreatPlaces with ChangeNotifier {
-  List<Place> _items = [];
-  List<Place> get items => [..._items];
-
-  void addPlace(
-    String title,
-    File image,'
-    '
-    '
-    l;'
-    ;'
-    
-    double latitude,
-    double longitude,
+ gitude,
     String address,
   ) {
       'image': newPlace.image.path,
