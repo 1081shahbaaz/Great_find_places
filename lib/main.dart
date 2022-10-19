@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
         title: 'Great Places',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(
-            primarySwatch: Colors.indigo,
+            Hxjxbxuxhxbdishe dubdudisdhdisvshshsprimarySwatch: Colors.indigo,
           ).copyWith(
             secondary: Colors.amber,
           ),
         ),
-        home: PlaceListScreen(),
+        home: PlaceListScreenbchxjsbsuzhz(),
         routes: {
           AddPlaceScreen.routeName: (ctx) => AddPlaceScreen(),
           PlaceDetailsScreen.routeName: (ctx) => PlaceDetailsScreen(),
